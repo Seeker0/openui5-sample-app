@@ -9,7 +9,7 @@ sap.ui.define(['sap/ui/core/UIComponent'], function(UIComponent) {
 
 jQuery.sap.registerModulePath(
 	'openui5-masterdetail-app',
-	'../../../openui5-masterdetail-app/'
+	'./components/master-detail/'
 );
 
-jQuery.sap.require('openui5-masterdetail-app.dist.Component');
+jQuery.sap.require('openui5-masterdetail-app.Component');
